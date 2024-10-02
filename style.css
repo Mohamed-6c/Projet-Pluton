@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacement entre le logo et les liens */
+    align-items: center; /* Centrer verticalement */
+    background-color: #333; /* Couleur de fond */
+    padding: 15px 20px; /* Espacement autour de la nav */
+}
+.logo img {
+    height: 5px; /* Ajustez la taille selon vos besoins */
+    width: 150px;  /* Définir la largeur souhaitée */
+    height: auto;  /* Maintenir le ratio d'aspect */
+}
+.logo {
+    color: white; /* Couleur du texte du logo */
+    font-size: 25px; /* Taille de police */
+    font-weight: bold; /* Gras */
+}
+
+.nav-links {
+    list-style: none; /* Enlever les puces de la liste */
+    padding: 0; /* Pas de padding */
+    margin: 0; /* Pas de margin */
+    display: flex; /* Aligner les éléments en ligne */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Distance entre les liens */
+}
+
+.nav-links a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlever le soulignement */
+    font-size: 18px; /* Taille de police */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
